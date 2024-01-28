@@ -1,0 +1,52 @@
+/* body related styles which are common to everyone */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header related styles */
+
+.top {
+  width: 1600px;
+  height: 800px;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+}
+
+.top-img {
+  width: 50%;
+}
+
+.top-content {
+  padding-right: 230px;
+}
+
+.topcontenttitle {
+  color: var(--Dark-01, #151414);
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.topcontendesc {
+  color: var(--Dark-02, #444343);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-btn {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
+  margin-left: 450px;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
