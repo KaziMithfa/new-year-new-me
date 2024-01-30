@@ -1,7 +1,12 @@
 /* body related styles which are common to everyone */
 
+* {
+  /* outline: 1px solid red; */
+}
+
 body {
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
 }
 
 /* header related styles */
@@ -9,6 +14,7 @@ body {
 .top {
   width: 1600px;
   height: 800px;
+  margin: 0px;
 }
 
 .top-container {
@@ -21,7 +27,7 @@ body {
 }
 
 .top-content {
-  padding-right: 230px;
+  padding-right: 330px;
 }
 
 .topcontenttitle {
@@ -29,6 +35,7 @@ body {
   text-align: right;
   font-size: 65px;
   font-weight: 700;
+  margin-bottom: 0px;
 }
 
 .topcontendesc {
@@ -36,6 +43,7 @@ body {
   text-align: right;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .contact-btn {
@@ -46,7 +54,235 @@ body {
   font-size: 20px;
   font-weight: 600;
   border: 0px;
-  margin-left: 450px;
-  margin-top: 32px;
-  margin-bottom: 25px;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  padding: 10px 5px;
 }
+
+/* main section related styles */
+
+.previous-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.previousimage {
+  margin-top: 120px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.highlight {
+  position: absolute;
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  margin: 186.37px 28.78px 183.7px 48.14px;
+}
+
+.previous-description {
+  margin-top: 300px;
+  margin-right: 100px;
+}
+
+.failtitle {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.failurepar {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.right {
+}
+
+.fail {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.containerdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* second section styles */
+
+.plantitle {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  /* margin: 0px auto; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.planscontainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.itemsector {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.itemdesc {
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* final section style */
+
+.finalsection {
+  width: 1140px;
+  height: 300px;
+  margin-left: 150px;
+  margin-right: 430px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 64px;
+  border-radius: 8px;
+  padding-right: 50px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+.positive {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+/* footer related styles  */
+
+.foot {
+  width: 1600px;
+  height: 577px;
+  flex-shrink: 0;
+  background: var(--Dark-01, #151414);
+  margin-top: 130px;
+  padding-left: 230px;
+  padding: 230px 200px;
+  display: flex;
+}
+
+.columone {
+  width: 50%;
+}
+
+.future {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.columnp {
+  margin-top: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subscribe {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form input[type="email"] {
+  display: block;
+  border-radius: 8px;
+  background: var(--Dark-01, #151414);
+  border: 1px solid #fff;
+  color: var(--Dark-07, #f3f3f3);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form input[type="submit"] {
+  border-radius: 8px;
+  background: #fff;
+  color: #f15b22;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* main section related styles */
+
+/* .previous {
+  margin-top: 100px;
+}
+
+.previousimage {
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
+}
+
+.highlight {
+  position: absolute;
+  width: 527.929px;
+  height: 527.929px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  margin: 190px 20px 180px 20px;
+}
+
+.person {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
